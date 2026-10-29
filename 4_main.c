@@ -9,8 +9,8 @@ int main()
     scanf("%f", &score);
 
     if(score <0|| score >100){
-        printf("输入无效"\n)
-        else{
+        printf("输入无效\n");
+        else if{
     else if(score >=90 ){
         printf("A\n");
     }
@@ -23,7 +23,7 @@ int main()
     else if(score >=60 && score<=69.99){
         printf("D\n");
     }
-    else (score <=59.99 && score>=0){
+    else if(score <=59.99 && score>=0){
         printf("E\n");
     }
         }
